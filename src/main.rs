@@ -11,3 +11,8 @@ fn main() {
     dbg!(my_float);
 
 }
+
+#[test]
+fn basics() {
+    assert!(1 == 1);
+}
